@@ -1,4 +1,4 @@
-#MatchPro – Plataforma de Matching entre Candidatos y Vacantes Impulsada por IA
+MatchPro – Plataforma de Matching entre Candidatos y Vacantes Impulsada por IA
 
 Las empresas pierden tiempo y recursos filtrando candidatos no calificados, mientras que muchos postulantes no saben cómo destacar en un mercado competitivo. Esta desconexión genera baja eficiencia en los procesos de contratación y frustración para ambas partes. MatchPro resuelve este problema utilizando IA para analizar tanto los requisitos del puesto como los perfiles de los candidatos, ofreciendo coincidencias precisas y transparentes.
 

@@ -5,21 +5,39 @@ Requimientos:
 4. Node.js
 5. API de Google Gemini
 
-Instruccion de n8n:
-1. Importe un workflow a n8n
-2. Configurar Dropbox en n8n (Método recomendado: OAuth2 manual con Refresh Token)
-  1. Crea una app en Dropbox
-  2. Ir a: https://www.dropbox.com/developers/apps
-  3. Crear una app → tipo Scoped Access
-  4. Tipo: Full Dropbox
-  5. Activar scopes:
+Instrucción de n8n:
+1. Importe un workflow de "_datos/MatchPro-Workflow.json" a n8n
+2. Configure un credencial de Dropbox (Método recomendado: OAuth2 manual con Refresh Token)
+
+   a. Cree una app en Dropbox
+   
+   b. Ir a: https://www.dropbox.com/developers/apps
+
+   c. Cree una app → tipo Scoped Access
+
+   d. Tipo: App folder
+
+   e. Escriba http://localhost:5678/rest/oauth2-credential/callback para Redirect URIs 
+
+   f. Active scopes:
      - files.content.read
      - files.content.write
      - files.metadata.read
-  6. Obtenga App Key (client_id) y App Secret (client_secret)
+        
+   g. Obtenga App Key (CLIENT_ID) y App Secret (CLIENT_SECRET)
+    
+   h. Video para obtener el Refresh Token de Dropbox: https://www.youtube.com/watch?v=y0tBLoSfjxc
 
-  7. Obtener el Refresh Token de Dropbox
-     Dropbox ya no da permanent tokens, así que necesitas un refresh token.
-     Abre esta URL reemplazando TU_CLIENT_ID:
+   i. En Dropbox HTTP Request1, escriba unos valores:
+     - refresh_token: Refresh Token
+     - client_id: App Key
+     - client_secret: App Secret
+  
+4. Configue un credencial del nodo "Google Gemini Chat Model"
 
-    https://www.dropbox.com/oauth2/authorize?client_id=TU_CLIENT_ID&token_access_type=offline&response_type=code&redirect_uri=https://localhost
+   - Host: https://generativelanguage.googleapis.com
+   - API Key: 
+     - La clave de su proyecto en Google AI Studio: https://aistudio.google.com/app/apikey
+
+Instrucción de MySQL:
+1. Importe los datos del archivo SQL de "_datos/MatchPro-Datos.sql" a MySQL

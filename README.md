@@ -1,3 +1,21 @@
+#MatchPro – Plataforma de Matching entre Candidatos y Vacantes Impulsada por IA
+
+Las empresas pierden tiempo y recursos filtrando candidatos no calificados, mientras que muchos postulantes no saben cómo destacar en un mercado competitivo. Esta desconexión genera baja eficiencia en los procesos de contratación y frustración para ambas partes. MatchPro resuelve este problema utilizando IA para analizar tanto los requisitos del puesto como los perfiles de los candidatos, ofreciendo coincidencias precisas y transparentes.
+
+Responsabilidades de MatchPro:
+
+- Publicación estructurada de vacantes: Los empleadores crean ofertas laborales o de freelance mediante un formulario guiado y estandarizado que garantiza descripciones claras y comparables.
+
+- Análisis de perfiles con IA: La plataforma analiza el perfil ideal para cada puesto y lo compara automáticamente con toda la base de candidatos disponibles.
+
+- Ranking de compatibilidad con explicación: MatchPro genera un listado de los candidatos más compatibles, acompañado de explicaciones que detallan por qué cada coincidencia es adecuada.
+
+- Cuentas inteligentes para candidatos: Los candidatos pueden crear perfiles optimizados con IA, que analiza su currículum y extrae habilidades, experiencia y fortalezas clave para maximizar su potencial de coincidencia.
+
+MatchPro optimiza los procesos de contratación y empodera a los candidatos, creando un ecosistema transparente y basado en datos que mejora la calidad de los matches para ambos lados.
+
+
+
 Requimientos:
 1. n8n
 2. Applicacion de Dropbox (con Refresh token, CLient ID, Client Token)

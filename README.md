@@ -6,7 +6,7 @@ Requimientos:
 5. API de Google Gemini
 
 Instrucción de n8n:
-1. Importe un workflow de "_datos/MatchPro-Workflow.json" a n8n
+1. Importe un workflow de "Iniciar esto/MatchPro-Workflow.json" a n8n
 2. Configure un credencial de Dropbox (Método recomendado: OAuth2 manual con Refresh Token)
 
    a. Cree una app en Dropbox
@@ -40,4 +40,4 @@ Instrucción de n8n:
      - La clave de su proyecto en Google AI Studio: https://aistudio.google.com/app/apikey
 
 Instrucción de MySQL:
-1. Importe los datos del archivo SQL de "_datos/MatchPro-Datos.sql" a MySQL
+1. Importe los datos del archivo SQL de "Iniciar esto/MatchPro-Datos.sql" a MySQL
